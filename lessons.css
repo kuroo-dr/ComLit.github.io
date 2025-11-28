@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('contactbg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff6f6;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 40px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.logo {
+    background-color: #1a2a4a;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 12px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: white;
+    font-weight: 300;
+}
+
+.auth-btns button {
+    margin-left: 8px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup { margin-right: 95px;}
+
+.login ,
+.signup { background: #4406b8c2; }
+
+.header {
+    color: white;
+    font-weight: 300;
+    margin-top: 80px;
+    text-align: center;
+} 
+
+/* LESSONS CONTENT 1-3 */
+
+.les-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.les1-box, .les2-box, .les3-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.les1-box {
+    background-color: #ffffff;
+}
+
+.les2-box {
+    background-color: #3E5283;
+}
+
+.les3-box {
+    background-color: #2FB9EA;
+}
+
+.les1-text, .les2-text, .les3-text {
+    text-align: center;
+    color: black;
+}
+
+.les1-box p, .les2-box p, .les3-box p {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.les1-text p, .les3-text p {
+    margin-top: 20px;
+}
+
+.les1-text h2:hover, .les2-text h2:hover, .les3-text h2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.les1-text h2, .les2-text h2, .les3-text h2 {
+    color: black;
+}
+
+
+/* LESSONS CONTENT 4-6 */
+
+.les-cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.les4-box, .les5-box, .les6-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.les4-box {
+    background-color: #3E5283;
+}
+
+.les5-box {
+    background-color: #2FB9EA;
+}
+
+.les6-box {
+    background-color: #FFFFFF;
+}
+
+.les4-text, .les5-text, .les6-text {
+    text-align: center;
+    color: black;
+}
+
+.les4-box p, .les5-box p, .les6-box p {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.les5-text p, .les6-text p {
+    margin-top: 20px;
+}
+
+.les4-text h2:hover, .les5-text h2:hover, .les6-text h2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.les4-text h2, .les5-text h2, .les6-text h2 {
+    color: black;
+}
+
+/* LESSONS CONTENT 7-9 */
+
+.les-cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.les7-box, .les8-box, .les9-box {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.les7-box {
+    background-color: #2FB9EA;
+}
+
+.les8-box {
+    background-color: #FFFFFF;
+}
+
+.les9-box {
+    background-color: #3E5283;
+}
+
+.les7-text, .les8-text, .les9-text {
+    text-align: center;
+    color: black;
+}
+
+.les7-box p, .les8-box p, .les9-box p {
+    text-align: justify;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.les8-text p, .les9-text p {
+    margin-top: 20px;
+}
+
+.les7-text h2:hover, .les8-text h2:hover, .les9-text h2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.les7-text h2, .les8-text h2, .les9-text h2 {
+    color: black;
+}
